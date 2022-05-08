@@ -1,0 +1,19 @@
+img {
+    transform:rotate(-45deg);
+    position:absolute;
+    top:-25%;
+    left:-25%;
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    transform:rotate(45deg);
+    overflow: hidden;
+    border-radius: 10px;
+  
+    /* Position away from the corner: */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
